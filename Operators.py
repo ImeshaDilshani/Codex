@@ -16,3 +16,13 @@ print((10>5) and (5>2) or "A" == "c")
 print((10>5) and (5>2))
 print((10>5) & (5>2))
 print(not("imesha"=="dilshani"))
+
+# Assignment operators
+n=7
+n=n+3
+print(n)
+
+m=2
+m+=3
+print(m)
+
