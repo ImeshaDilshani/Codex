@@ -6,3 +6,8 @@ print(name)
 print(age)
 print(pi)
 print(namuber)
+
+print(type(name))
+print(type(age))
+print(type(pi))
+print(type(namuber))
