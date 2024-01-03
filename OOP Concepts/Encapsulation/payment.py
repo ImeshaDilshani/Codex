@@ -8,8 +8,12 @@ class Payment:
     def set_final_price(self, discount):
         self.__final_price = self.__final_price - (self.__final_price*(discount/100))
 
+    def __calculate_discount(self, discount):
+        return self.__final_price*(discount/100)
+
 book = Payment(10)
 # print(book._final_price)
 # book.__final_price = 200
+book.__calculate_discount(50)
 book.set_final_price(10)
 print(book.get_final_price())
