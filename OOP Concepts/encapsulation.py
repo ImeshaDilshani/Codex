@@ -9,6 +9,8 @@
 class myClass:
     def meth1(self):
         print("myClass meth1")
+        self.__meth2()
+
     def __meth2(self):
         print("myClass meth2")
 
