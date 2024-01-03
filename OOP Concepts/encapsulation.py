@@ -17,3 +17,4 @@ class myClass:
 myObject = myClass()
 myObject.meth1()
 # myObject.__meth2() # This will cause an error
+
