@@ -1,5 +1,5 @@
 # Codex: A Python Learning Repository
-Welcome to the PythonInAction repository! 🐍 This repository is a comprehensive collection of Python code snippets and projects designed to guide learners from beginner to advanced levels in mastering Python programming. Whether you're just starting your Python journey or looking to enhance your skills, this repository has something for everyone.
+Welcome to Codex! 🚀 🐍 This repository is a comprehensive collection of Python code snippets and projects designed to guide learners from beginner to advanced levels in mastering Python programming. Whether you're just starting your Python journey or looking to enhance your skills, this repository has something for everyone.
 ## What's Inside?
 - Variables and Data Types: Examples demonstrating the use of different data types and variable declarations.
 - Control Flow Statements: Code snippets showcasing the use of if-else statements, loops (for, while, and do-while), and switch statements.
