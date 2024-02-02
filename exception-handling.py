@@ -5,8 +5,8 @@ try:
     # Attempt to open the file in read mode
     with open(filename, "r") as file:
         # Read the file contents if successful
-        contents = file.read()
-        print("File contents:", contents)
+        contents = file.readlines()
+        print(contents)
 
 except FileNotFoundError:
     # Handle the file not found error

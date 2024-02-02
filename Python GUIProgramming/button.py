@@ -1,12 +1,19 @@
-from tkinter import *
+import tkinter as tk
 
-def hello_world():
-  print("Hello, world!")
+def display_message():
+    label.config(text="Hello, World!")
 
-root = Tk()
-root.title("Hello World!")
+# Create the main window
+root = tk.Tk()
+root.title("Hello World GUI")
 
-button = Button(root, text="Click me!", command=hello_world)
+# Create a label widget to display the message
+label = tk.Label(root, text="")
+label.pack(pady=20)
+
+# Create a button widget
+button = tk.Button(root, text="Click Me", command=display_message)
 button.pack()
 
+# Run the application
 root.mainloop()
